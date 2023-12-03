@@ -8,7 +8,7 @@ const StackNavigator = createNativeStackNavigator();
 const NavigationStack = () => {
   return (
     <StackNavigator.Navigator initialRouteName="HomeScreen">
-      {/* La primera screen que de defina es la que se mostrar por defecto es decir el orden importa, o podriamos utilizar el initialRouteName */}
+      {/* La primera screen que se defina es la que se va mostrar por defecto es decir el orden importa, o podriamos utilizar el initialRouteName donde le indicamos el valor  */}
       <StackNavigator.Screen name="RegisterScreen" component={RegisterScreen} />
       <StackNavigator.Screen name="HomeScreen" component={HomeScreen} />
     </StackNavigator.Navigator>
